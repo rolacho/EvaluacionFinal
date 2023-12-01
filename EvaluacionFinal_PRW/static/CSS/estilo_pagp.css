@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Cambia el color de fondo según tus preferencias */
+}
+button {
+    font-size: 100px;
+    padding: 200px 100px;
+    margin: 20px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: #E61AE6;
+    color: white;
+}
+.button2 {
+    background-color: #3CDC0C;
+    color: white;
+}

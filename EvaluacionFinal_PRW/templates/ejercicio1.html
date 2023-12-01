@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ejercicio1</title>
+    <link rel="stylesheet" href="/static/CSS/estilos.css">
+</head>
+<body>
+    <div class ="container">
+        <h1> Calculo de compras</h1>
+        <form method="POST" action="/ejercicio1">
+            <label for="ingresatunombre">Ingresa tu nombre</label>
+            <input type="text" name="ingresatunombre"><br>
+            <label for="ingresatuedad">Ingresa tu edad</label>
+            <input type="text" name="ingresatuedad"><br>
+            <label for="ingresalacantidaddetarrosdepinturaacomprar">Ingresa la cantidad de tarros de pintura a comprar</label>
+            <input type="text" name="ingresalacantidaddetarrosdepinturaacomprar"><br>
+            <input type="submit" value="Calcular">
+        </form>
+        <div id="resultado">
+            {{ resultado | safe }}
+        </div>
+    </div>
+</body>
+</html>
